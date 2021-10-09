@@ -2,12 +2,13 @@
 A trivial sample using [Norx](https://github.com/tankfeud/norx).
 
 
-# Requirements
+# Install Nim
 First you need a compiler for the Nim language, see [nim-lang.org](https://nim-lang.org).
 Easiest is to use Choosenim like this for Linux:
 
     curl https://nim-lang.org/choosenim/init.sh -sSf | sh
 
+# Build
 Then you can build a release version with `nimble build -d:release` or `nim c -d:release -o:norxsample src/norxsample`.
 
 In order to run the sample you will also need `liborx[d|p].so|.dll|.dylib` since we load the ORX library dynamically!
