@@ -8,8 +8,9 @@ Easiest is to use Choosenim like this for Linux:
 
     curl https://nim-lang.org/choosenim/init.sh -sSf | sh
 
-Then you can build with `nimble build` or `nim c -d:release -o:norxsample src/norxsample`.
+Then you can build a release version with `nimble build -d:release` or `nim c -d:release -o:norxsample src/norxsample`.
 
-In order to run the sample you will also need `liborxd.so|.dll` since we load the ORX library dynamically!
+In order to run the sample you will also need `liborx[d|p].so|.dll|.dylib` since we load the ORX library dynamically!
+See instructions in [Norx](https://github.com/tankfeud/norx) for how to build and install these library files.
 
-With the library in place you can also build and run at the same time with `nimble run norxsample`.
+With the library in place you can then run with `./norxsample`
