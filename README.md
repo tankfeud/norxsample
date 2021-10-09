@@ -1,5 +1,5 @@
 # norxsample
-A trivial sample using [Norx](https://github.com/gokr/norx).
+A trivial sample using [Norx](https://github.com/tankfeud/norx).
 
 Build with `nimble build` or `nim c -d:release -o:norxsample src/norxsample`.
 
