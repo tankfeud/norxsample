@@ -7,5 +7,5 @@ srcDir        = "src"
 bin           = @["norxsample"]
 
 # Dependencies
-requires "nim >= 1.2.0"
-requires "norx >= 0.5.0"
+requires "nim >= 2.2.4"
+requires "norx >= 0.7.2"
